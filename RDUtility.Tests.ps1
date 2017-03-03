@@ -62,10 +62,10 @@ Describe $moduleName {
             
             It "Synopsis" { $help.Synopsis | Should not BeNullOrEmpty }
             It "Description" { $help.Description | Should not BeNullOrEmpty }
-            It "Notes - Author" { $Notes[0].trim() | Should Be "Peter M Taylor for github.com/" }
-            It "Notes - Site" { $Notes[1].trim() | Should Be "https://petermtaylor.github.io/" }
-            It "Notes - Github" { $Notes[3].trim() | Should Be "github.com/PeterMTaylor" }
-            It "Notes - Twitter" { $Notes[2].trim() | Should Be "@peterlearning24" }
+            It "Notes - Author" { $Notes[0].trim() | Should Be "Peter M Taylor for Rubberduck-VBA Project" }
+            It "Notes - Site" { $Notes[1].trim() | Should Be "https://rubberduckvba.com" }
+            It "Notes - Github" { $Notes[3].trim() | Should Be "https://github.com/rubberduck-vba/Rubberduck" }
+            It "Notes - Twitter" { $Notes[2].trim() | Should Be "@rubberduckvba" }
             
             # Get the parameters declared in the Comment Based Help
             $RiskMitigationParameters = 'Whatif', 'Confirm'
