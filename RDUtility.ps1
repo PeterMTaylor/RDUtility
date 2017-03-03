@@ -1,11 +1,11 @@
 function RDUtility
 {
 <#
-    .SYNOPSIS
-		Function to detect your bitness of your PC in order to diagnose and correct installation issues report in Rubberduck-VBA
+        .SYNOPSIS
+                Function to a collection of Utilities for building and maintaining your Rubberduck VBA Project
 	
 	.DESCRIPTION
-		Function to check which system you have 32-bit or 64-bit to check your installation settings.
+		Function to a main menu offering selection of tests design to resolve outstanding issues when working on your Rubberduck VBA Project.
 	
 	.PARAMETER Unknown
 		Specifies the PowerShell Object
@@ -18,7 +18,7 @@ function RDUtility
 	
 	.NOTES
 		Peter M Taylor for Rubberduck-VBA project
-    https://github.com/rubberduck-vba/Rubberduck
+                https://github.com/rubberduck-vba/Rubberduck
     @rubberduckvba
 #>
      Return write-output 'Hello World!' 
