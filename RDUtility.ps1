@@ -18,8 +18,9 @@ function RDUtility
 	
 	.NOTES
 		Peter M Taylor for Rubberduck-VBA project
+		https://rubberduckvba.com
                 https://github.com/rubberduck-vba/Rubberduck
-    @rubberduckvba
+                @rubberduckvba
 #>
      Return write-output 'Hello World!' 
 }
