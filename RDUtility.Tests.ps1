@@ -35,7 +35,7 @@ if ($Scripts.count -gt 0) {
 }
 
 #-------------------------# 
-# CodeAudit Pester tests  # 
+# RDUtility Pester tests  # 
 #-------------------------# 
 
 $moduleName = 'RDUtility';
@@ -63,7 +63,7 @@ Describe $moduleName {
             It "Synopsis" { $help.Synopsis | Should not BeNullOrEmpty }
             It "Description" { $help.Description | Should not BeNullOrEmpty }
             It "Notes - Author" { $Notes[0].trim() | Should Be "Peter M Taylor for Rubberduck-VBA Project" }
-            It "Notes - Site" { $Notes[1].trim() | Should Be "https://rubberduckvba.com" }
+            It "Notes - Site" { $Notes[1].trim() | Should Be "http://rubberduckvba.com" }
             It "Notes - Github" { $Notes[3].trim() | Should Be "https://github.com/rubberduck-vba/Rubberduck" }
             It "Notes - Twitter" { $Notes[2].trim() | Should Be "@rubberduckvba" }
             
