@@ -18,7 +18,7 @@ function RDUtility
 	
 	.NOTES
 		Peter M Taylor for Rubberduck-VBA project
-		https://rubberduckvba.com
+		http://rubberduckvba.com
                 @rubberduckvba
 		https://github.com/rubberduck-vba/Rubberduck
 #>
