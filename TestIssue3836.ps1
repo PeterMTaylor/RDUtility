@@ -1,1 +1,3 @@
-#here be tests that work
+﻿function TestIssue3836 {
+
+}
