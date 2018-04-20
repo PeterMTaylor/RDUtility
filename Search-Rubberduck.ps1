@@ -1,0 +1,1 @@
+﻿.\Search-Registry.ps1 -StartKey HKLM:\SOFTWARE -Pattern Rubberduck -MatchData
