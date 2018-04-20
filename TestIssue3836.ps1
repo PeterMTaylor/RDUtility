@@ -1,3 +1,0 @@
-﻿function TestIssue3836 {
-
-}
